@@ -1,0 +1,457 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!--  FONTS  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+          rel="stylesheet">
+
+
+    <!--  STYLES  -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <title>Теремтехно</title>
+</head>
+<body>
+<header class="header">
+    <div class="container">
+        <div class="header-inner">
+            <div class="header-inner-left">
+                <img src="./img/logo.svg" alt="Logo" class="logo">
+            </div>
+            <div class="header-inner-right">
+                <div class="right-top">
+                    <p>Email:sale@terem-gbi.ru</p>
+                    <a class="sub-btn" href="tel:88002223066">8 800 222 30 66</a>
+                </div>
+                <div class="right-down">
+                    <nav class="nav">
+                        <ul>
+                            <li><a href="">Главная</a></li>
+                            <li><a href="#offers">Продукция</a></li>
+                            <li><a href="#swiper">Сертификаты</a></li>
+                            <li><a href="#why">Полезное</a></li>
+                            <li><a href="#contact">Контакты</a></li>
+                            <li><a href="#diler">Гарантии</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <button class="menu-btn">
+                <span class="menu-btn__line"></span>
+                <span class="menu-btn__line"></span>
+                <span class="menu-btn__line"></span>
+            </button>
+        </div>
+    </div>
+</header>
+<main class="main">
+
+    <section class="section-header">
+        <div class="container">
+            <div class="section-header-inner">
+                <div class="title">
+                    <h1>
+                        <span class="blue-text">Универсальные</span>
+                        железобетонные технологии
+                    </h1>
+                    <p>Практично. Надежно. Красиво</p>
+                    <button class="btn">Оставить заявку</button>
+                </div>
+                <div class="header-img">
+                    <img src="./img/section-header/image.jpg" alt="">
+                    
+                </div>
+                <div class="service">
+                    <div class="service-card">
+                        <b class="blue-text">Промышленное и гражданское строительство</b>
+                        <p>Материалы для строительства частных домов,коммерческих помещений, многоквартирных домов.</p>
+                        <button class="more">Подробнее</button>
+                    </div>
+                    <div class="service-card">
+                        <b class="blue-text">Цилиндрические металлоконструкции</b>
+                        <p>Изготовление на заказ по вашим чертежам с минимальным диаметром изделия – 600 мм</p>
+                        <button class="more">Подробнее</button>
+                    </div>
+                    <div class="service-card">
+                        <b class="blue-text">Водоотведение</b>
+                        <p>Продукция для прокладки трубопроводов, строительства систем водоотвода иводоснабжения.</p>
+                        <button class="more">Подробнее</button>
+                    </div>
+                    <div class="service-card">
+                        <b class="blue-text">Благоустройство</b>
+                        <p>Тротуарная плитка и продукция для ландшафтного дизайна</p>
+                        <button class="more">Подробнее</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="offers" id="offers">
+        <div class="container">
+            <div class="offers-inner">
+                <h1 class="sub-title">Мы предлагаем</h1>
+                <div class="offers-cards">
+                    <div class="offers-card">
+                        <b>Доставка</b>
+                        <p>По всему краю</p>
+                        <img src="./img/section-offers/card1.svg" alt="">
+                    </div>
+                    <div class="offers-card">
+                        <b>Дизайн</b>
+                        <p>Для клиентов компании</p>
+                        <img src="./img/section-offers/card2.svg" alt="">
+                    </div>
+                    <div class="offers-card">
+                        <b>Укладка плитки</b>
+                        <p>Более 40 бригад</p>
+                        <img src="./img/section-offers/card3.svg" alt="">
+                    </div>
+                    <div class="offers-card">
+                        <b>Бетон</b>
+                        <p>До 1000 м³/смену</p>
+                        <img src="./img/section-offers/card4.svg" alt="">
+                    </div>
+                </div>
+                <div class="offers-bottom">
+                    <p>ТРУБЫ МИКРОТОННЕЛИРОВАНИЯ ДЛЯ ОЛИМПИАДЫ СОЧИ-2014<br>
+                        Трубы микротоннелирования для олимпиады Сочи-2014</p>
+                    <a href="404.html" class="sub-btn">Читайте далее</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-sale">
+        <div class="container">
+            <div class="sale-inner">
+                <h1 class="sub-title">Акция</h1>
+                <p>Получите скидку 25% до начала осени по промокоду <b class="blue-text">"ЛЕТО23"</b></p>
+                <div class="countdown">
+                    <span id="days" class="countdown-numbers">0<span>Дни</span></span>
+                    <span>:</span>
+                    <span id="hours" class="countdown-numbers">0<span>Часы</span></span>
+                    <span>:</span>
+                    <span id="minutes" class="countdown-numbers">0<span>Минуты</span></span>
+                    <span>:</span>
+                    <span id="seconds" class="countdown-numbers">0<span>Секунды</span></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <video class="video" width="640" height="480" controls>
+        <source src="D:\Производственная\teremtechno\video\terem.mp4" type="video/mp4">
+    </video>
+
+    <section class="section-guarantees">
+        <div class="container">
+            <div class="guarantees-inner">
+
+
+                <div class="guarantees-st" id="diler">
+                    <h1 class="sub-title">Наши гарантии</h1>
+                    <div class="guarantees-cards">
+                        <div class="guarantees-st-card">
+                            <b class="blue-text">10</b>
+                            <span>Лет</span>
+                            <p>
+                                Такую гарантию мы даем на изделия из железобетона собственного производства
+                            </p>
+                        </div>
+                        <div class="guarantees-st-card">
+                            <b class="blue-text">500 000</b>
+                            <span>М2</span>
+                            <p>
+                                Такой объем тротуарной плитки может производить наш завод в год
+                            </p>
+                        </div>
+                        <div class="guarantees-st-card">
+                            <b class="blue-text">1000</b>
+                            <span>М2</span>
+                            <p>
+                                Товарного бетона различных марок производит растворобетонный узел в смену
+                            </p>
+                        </div>
+                        <div class="guarantees-st-card">
+                            <b class="blue-text">120</b>
+                            <span>Единиц</span>
+                            <p>
+                                Различной техники насчитывает собственный автопарк для доставки продукции с завода
+                                покупателям
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="guarantees-nd">
+                    <h1 class="sub-title">Наши гарантии</h1>
+                    <div class="guarantees-cards">
+                        <div class="guarantees-nd-card">
+                            <img src="./img/section-guarantees/1.jpg" alt="">
+                            <span>Жилые объекты</span>
+                            <p>Строительство и благоустройство жилых объектов: многоквартирных дома, коттеджи,
+                                таунхаусы.</p>
+                        </div>
+                        <div class="guarantees-nd-card">
+                            <img src="./img/section-guarantees/2.jpg" alt="">
+                            <span>Социальные объекты</span>
+                            <p>Строительство и благоустройство социальных объектов: детcкие сады, школы, храмы,
+                                часовни.</p>
+                        </div>
+                        <div class="guarantees-nd-card">
+                            <img src="./img/section-guarantees/3.jpg" alt="">
+                            <span>Курортные объекты</span>
+                            <p>Строительство и благоустройство санаторно-курортных объектов.</p>
+                        </div>
+                        <div class="guarantees-nd-card">
+                            <img src="./img/section-guarantees/4.jpg" alt="">
+                            <span>Газопровод Голубой Поток</span>
+                            <p>Строительство магистральных переходов, Ставрополь - Анапа. Поставка железобетонных
+                                труб.</p>
+                        </div>
+                        <div class="guarantees-nd-card">
+                            <img src="./img/section-guarantees/5.jpg" alt="">
+                            <span>Олимпийские объекты</span>
+                            <p>Строительство канализационных коллекторов для Олимпийских объектов, Адлер. Поставка труб
+                                микротоннелирования</p>
+                        </div>
+                        <div class="guarantees-nd-card">
+                            <img src="./img/section-guarantees/6.jpg" alt="">
+                            <span>Крым</span>
+                            <p>Ряд проектов поставки труб микротоннелирования для строительства систем водоподачи.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-container guarantees-slider" id="swiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="./img/section-guarantees/swiper/1.jpg" alt="Slide 1">
+                            <img src="./img/section-guarantees/swiper/2.jpg" alt="Slide 2">
+                            <img src="./img/section-guarantees/swiper/3.jpg" alt="Slide 3">
+                            <img src="./img/section-guarantees/swiper/4.jpg" alt="Slide 4">
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="./img/section-guarantees/swiper/1.jpg" alt="Slide 5">
+                            <img src="./img/section-guarantees/swiper/2.jpg" alt="Slide 6">
+                            <img src="./img/section-guarantees/swiper/3.jpg" alt="Slide 1">
+                            <img src="./img/section-guarantees/swiper/4.jpg" alt="Slide 2">
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+
+                <div class="guarantees-why" id="why">
+                    <h1 class="sub-title">Почему выбирают нас?</h1>
+                    <div class="why-cards">
+                        <div class="why-card">
+                            <div class="card-header">
+                                <svg width="41" height="41" viewBox="0 0 41 41" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_91_148)">
+                                        <path d="M20.2963 15.6135C22.483 15.716 23.0467 17.5781 23.0809 18.4493H26.1388C26.0021 15.0668 23.5934 12.9998 20.2451 12.9998C16.4696 12.9998 13.668 15.3743 13.668 20.7385C13.668 24.0527 15.2567 27.9818 20.228 27.9818C24.0205 27.9818 26.0534 25.1631 26.1046 22.9423H23.0467C22.9955 23.9502 22.278 25.2998 20.2621 25.4023C18.0242 25.3339 17.0846 23.5914 17.0846 20.7385C17.0846 15.8014 19.2713 15.6477 20.2963 15.6135ZM20.5013 3.41602C11.0713 3.41602 3.41797 11.0693 3.41797 20.4993C3.41797 29.9293 11.0713 37.5827 20.5013 37.5827C29.9313 37.5827 37.5846 29.9293 37.5846 20.4993C37.5846 11.0693 29.9313 3.41602 20.5013 3.41602ZM20.5013 34.166C12.9676 34.166 6.83464 28.0331 6.83464 20.4993C6.83464 12.9656 12.9676 6.83268 20.5013 6.83268C28.0351 6.83268 34.168 12.9656 34.168 20.4993C34.168 28.0331 28.0351 34.166 20.5013 34.166Z" fill="#014CDD"/>
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_91_148">
+                                            <rect width="41" height="41" fill="white"/>
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                                <b class="blue-text">Зарегистрированный товарный знак</b>
+                            </div>
+                            <p>Ответственность за качество товара</p>
+                        </div>
+
+                        <div class="why-card">
+                            <div class="card-header">
+                                <svg width="31" height="31" viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M27.4583 0.125H3.54167C1.65737 0.125 0.125 1.65737 0.125 3.54167V27.4583C0.125 29.3426 1.65737 30.875 3.54167 30.875H27.4583C29.3426 30.875 30.875 29.3426 30.875 27.4583V3.54167C30.875 1.65737 29.3426 0.125 27.4583 0.125ZM20.625 27.4583H17.2083V22.3333L18.9167 20.625L20.625 22.3333V27.4583ZM20.625 8.66667H10.375V5.25H20.625V8.66667ZM27.4583 27.4583H24.0417V22.3333L25.75 20.625L27.4583 22.3333V27.4583Z" fill="#014CDD"/>
+                                </svg>
+                                <b class="blue-text">Более 300</b>
+                            </div>
+                            <p>Видов изделий из железобетона</p>
+                        </div>
+
+                        <div class="why-card">
+                            <div class="card-header">
+                                <svg width="39" height="39" viewBox="0 0 39 39" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M37.7794 31.4583L22.2336 15.9125C23.7711 11.9833 22.9169 7.37084 19.6711 4.12501C16.805 1.25888 12.7367 0.316195 9.0798 1.1961C8.05635 1.44235 7.82125 2.69597 8.56559 3.44032L12.9511 7.82586C13.7377 8.6124 13.7377 9.88762 12.9511 10.6742L10.6582 12.9671C9.87801 13.7473 8.61539 13.7545 7.82632 12.9834L3.21446 8.47637C2.4823 7.76084 1.26552 7.9731 0.998587 8.96142C0.00271499 12.6486 1.05743 16.7738 3.95445 19.6708C7.20028 22.9167 11.8128 23.7708 15.7419 22.2333L31.2878 37.7792C31.9711 38.4625 32.9961 38.4625 33.6794 37.7792L37.6086 33.85C38.4628 33.1667 38.4628 31.9708 37.7794 31.4583Z" fill="#014CDD"/>
+                                </svg>
+                                <b class="blue-text">Многопрофильное производство</b>
+                            </div>
+                            <p>Строительство, водоотведение, благоустройство опыт с 2006 года</p>
+                        </div>
+
+                        <div class="why-card">
+                            <div class="card-header">
+                                <svg width="31" height="31" viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M5.25 0.125V3.54167H12.0833V0.125H5.25ZM18.9167 0.125V3.54167H25.75V0.125H18.9167ZM5.25 6.95833C4.307 6.95833 3.54167 7.72367 3.54167 8.66667V12.0833C1.65396 12.0833 0.125 13.6123 0.125 15.5V29.1667C0.125 30.1097 0.890333 30.875 1.83333 30.875H12.0833C13.0263 30.875 13.7917 30.1097 13.7917 29.1667V18.9167H17.2083V29.1667C17.2083 30.1097 17.9737 30.875 18.9167 30.875H29.1667C30.1097 30.875 30.875 30.1097 30.875 29.1667V15.5C30.875 13.6123 29.346 12.0833 27.4583 12.0833V8.66667C27.4583 7.72367 26.693 6.95833 25.75 6.95833H18.9167C17.9737 6.95833 17.2083 7.72367 17.2083 8.66667V12.0833H13.7917V8.66667C13.7917 7.72367 13.0263 6.95833 12.0833 6.95833H5.25Z" fill="#014CDD"/>
+                                </svg>
+                                <b class="blue-text">Сертифицированная лаборатория</b>
+                            </div>
+                            <p>Собственная лаборатория на производстве</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="banner">
+<iframe src="file:///D:/%D0%9F%D1%80%D0%BE%D0%B8%D0%B7%D0%B2%D0%BE%D0%B4%D1%81%D1%82%D0%B2%D0%B5%D0%BD%D0%BD%D0%B0%D1%8F/teremtechno/%D0%A2%D0%B5%D1%80%D0%B5%D0%BC/%D0%A2%D0%B5%D1%80%D0%B5%D0%BC.html" width="900" height="260" frameborder="0"></iframe>
+
+
+    </div>
+
+    <section class="section-reviews">
+        <div class="container">
+            <div class="reviews-inner">
+                <h1 class="sub-title">Отзывы</h1>
+                <div class="reviews-cards">
+                    <div class="reviews-card">
+                        <div class="c-left">
+                            <b>Илья Екимов</b>
+                            <p>Сейчас достаточно производителей тротуарной плитки. Делают плитку кустарно, цена дешевая, но за качество никто не отвечает</p>
+                        </div>
+                        <div class="c-right">
+                            <img src="./img/section-reviews/Ellipse.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="reviews-card">
+                        <div class="c-left">
+                            <b>Илья Екимов</b>
+                            <p>Сейчас достаточно производителей тротуарной плитки. Делают плитку кустарно, цена дешевая, но за качество никто не отвечает</p>
+                        </div>
+                        <div class="c-right">
+                            <img src="./img/section-reviews/Ellipse.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="reviews-card">
+                        <div class="c-left">
+                            <b>Илья Екимов</b>
+                            <p>Сейчас достаточно производителей тротуарной плитки. Делают плитку кустарно, цена дешевая, но за качество никто не отвечает</p>
+                        </div>
+                        <div class="c-right">
+                            <img src="./img/section-reviews/Ellipse.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section-contact" id="contact">
+        <div class="container">
+            <div class="contact-inner">
+                <h1 class="sub-title">Контакты</h1>
+                <div class="contact-content">
+                    <div class="content-left">
+
+                        <div class="content-card">
+                            <div class="card-header">
+                                <svg width="25" height="35" viewBox="0 0 25 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M12.5013 0.416992C5.89005 0.416992 0.542969 5.76408 0.542969 12.3753C0.542969 21.3441 12.5013 34.5837 12.5013 34.5837C12.5013 34.5837 24.4596 21.3441 24.4596 12.3753C24.4596 5.76408 19.1126 0.416992 12.5013 0.416992ZM12.5013 16.6462C10.1438 16.6462 8.23047 14.7328 8.23047 12.3753C8.23047 10.0178 10.1438 8.10449 12.5013 8.10449C14.8588 8.10449 16.7721 10.0178 16.7721 12.3753C16.7721 14.7328 14.8588 16.6462 12.5013 16.6462Z" fill="#014CDD"/>
+                                </svg>
+                                <b class="blue-text">Ул. Хадыженская, 28-Б</b>
+                            </div>
+                            <p>Отдел продаж №1 г. Горячий ключ</p>
+                        </div>
+
+                        <div class="content-card">
+                            <div class="card-header">
+                                <svg width="25" height="35" viewBox="0 0 25 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M12.5013 0.416992C5.89005 0.416992 0.542969 5.76408 0.542969 12.3753C0.542969 21.3441 12.5013 34.5837 12.5013 34.5837C12.5013 34.5837 24.4596 21.3441 24.4596 12.3753C24.4596 5.76408 19.1126 0.416992 12.5013 0.416992ZM12.5013 16.6462C10.1438 16.6462 8.23047 14.7328 8.23047 12.3753C8.23047 10.0178 10.1438 8.10449 12.5013 8.10449C14.8588 8.10449 16.7721 10.0178 16.7721 12.3753C16.7721 14.7328 14.8588 16.6462 12.5013 16.6462Z" fill="#014CDD"/>
+                                </svg>
+                                <b class="blue-text">Территория завода ЖБИ</b>
+                            </div>
+                            <p>Отдел продаж №2 г. Белореченск, химплощадка</p>
+                        </div>
+
+                        <div class="content-card">
+                            <div class="card-header">
+                                <svg width="31" height="31" viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M6.30917 13.4319C8.76917 18.2665 12.7325 22.2128 17.5671 24.6899L21.3254 20.9315C21.7867 20.4703 22.47 20.3165 23.0679 20.5215C24.9812 21.1536 27.0483 21.4953 29.1667 21.4953C30.1062 21.4953 30.875 22.264 30.875 23.2036V29.1657C30.875 30.1053 30.1062 30.874 29.1667 30.874C13.1254 30.874 0.125 17.8736 0.125 1.83236C0.125 0.892773 0.89375 0.124023 1.83333 0.124023H7.8125C8.75208 0.124023 9.52083 0.892773 9.52083 1.83236C9.52083 3.96777 9.8625 6.01777 10.4946 7.93111C10.6825 8.52902 10.5458 9.19527 10.0675 9.67361L6.30917 13.4319Z" fill="#014CDD"/>
+                                </svg>
+                                <b class="blue-text">Телефон</b>
+                            </div>
+                            <p>8 800 222 30 66</p>
+                        </div>
+
+                        <div class="content-card">
+                            <div class="card-header">
+                                <svg width="35" height="29" viewBox="0 0 35 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M31.168 0.833008H3.83464C1.95547 0.833008 0.435052 2.37051 0.435052 4.24967L0.417969 24.7497C0.417969 26.6288 1.95547 28.1663 3.83464 28.1663H31.168C33.0471 28.1663 34.5846 26.6288 34.5846 24.7497V4.24967C34.5846 2.37051 33.0471 0.833008 31.168 0.833008ZM31.168 7.66634L17.5013 16.208L3.83464 7.66634V4.24967L17.5013 12.7913L31.168 4.24967V7.66634Z" fill="#014CDD"/>
+                                </svg>
+                                <b class="blue-text">Email</b>
+                            </div>
+                            <p>sale@terem-gbi.ru</p>
+                        </div>
+
+                    </div>
+                    <div class="content-right">
+                        <h1>Оставьте свой отзыв или заявку</h1>
+                        <p>Возникли вопросы?
+                            Оставьте свое имя и контактные данные, и мы перезвоним вам!</p>
+                        <form action="">
+                            <input type="text" placeholder="Имя">
+                            <input type="text" placeholder="Фамилия">
+                            <input type="text" placeholder="Телефон">
+                            <textarea placeholder="Комментарий"></textarea>
+                            <button class="btn">Отправить</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="contacts__map" style="position:relative;overflow:hidden;"><a
+                    href="https://yandex.ru/maps/10988/belorechensk/?utm_medium=mapframe&utm_source=maps"
+                    style="color:#eee;font-size:12px;position:absolute;top:0px;">Белореченск</a><a
+                    href="https://yandex.ru/maps/geo/belorechensk/53161853/?ll=39.869157%2C44.767978&utm_medium=mapframe&utm_source=maps&z=14.54"
+                    style="color:#eee;font-size:12px;position:absolute;top:14px;">Белореченск — Яндекс Карты</a>
+                <iframe src="https://yandex.ru/map-widget/v1/?ll=39.869157%2C44.767978&mode=search&ol=geo&ouri=ymapsbm1%3A%2F%2Fgeo%3Fdata%3DCgg1MzE2MTg1MxJJ0KDQvtGB0YHQuNGPLCDQmtGA0LDRgdC90L7QtNCw0YDRgdC60LjQuSDQutGA0LDQuSwg0JHQtdC70L7RgNC10YfQtdC90YHQuiIKDVV5H0IVZhAzQg%2C%2C&z=14.54"
+                        width="100%" height="750" frameborder="1" allowfullscreen="true"
+                        style="position:relative;"></iframe>
+            </div>
+        </div>
+    </footer>
+
+</main>
+
+
+<!--JS-->
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="js/main.js"></script>
+<script src="js/countdown.js"></script>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const swiper = new Swiper('.guarantees-slider', {
+            slidesPerView: 2,
+            spaceBetween: 10,
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            breakpoints: {
+                768: {
+                    slidesPerView: 1,
+                },
+            },
+        });
+    });
+</script>
+</body>
+</html>
